@@ -1,0 +1,127 @@
+/* Setting basic styles for the entire document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e3e3e;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+}
+
+.container > h1 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.container > form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 10px;
+}
+
+.container > form > input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: rgba(256, 256, 256, 0.6);
+}
+
+.container > form > input[type="text"] {
+  width: 250px;
+}
+
+.container > form > input[type="submit"] {
+  cursor: pointer;
+  color: white;
+  padding-inline: 20px;
+  background-color: #0d6efd;
+  transition: all 0.3s ease-in-out;
+}
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.icon {
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+.icon > img:hover {
+  animation: rotacionHorizontal 10s ease;
+  /* animation: pulse 3s infinite; */
+}
+
+.weather-data > h2 {
+  font-size: 4rem;
+}
+
+.weather-data > h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.details-container > div {
+  flex: 1;
+  text-wrap: nowrap;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.details-container > div > span {
+  display: block;
+  font-weight: 400;
+}
+
+@keyframes rotacionHorizontal {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

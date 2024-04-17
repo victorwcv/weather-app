@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <h1>Clima Mundial</h1>
+      <form>
+        <input
+          type="text"
+          id="city-input"
+          placeholder="Ciudad, País"
+          autocomplete="off"
+        />
+        <input type="submit" value="Obtener Clima" />
+      </form>
+      <div class="weather-data" id="weather-data">
+        <h3 id="city">Ciudad, Pais</h3>
+        <div class="icon">
+          <img
+            src="http://openweathermap.org/img/wn/01d@2x.png"
+            alt="weather icon"
+          />
+        </div>
+        <h2 id="degrees">-°C</h2>
+        <h3 id="description">--</h3>
+        <div class="details-container">
+          <div>Sensacion T.<span id="feeling">-°C</span></div>
+          <div>Humedad<span id="humidity">0 %</span></div>
+          <div>Vel. Viento<span id="wind">0 m/s</span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="script.js"></script>
+</html>
