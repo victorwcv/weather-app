@@ -4,7 +4,7 @@
   <img src="./public/banner.jpg" alt="Descripción de la imagen">
 </p>
 
-Este proyecto es una aplicación web simple que muestra la información meteorológica actual de la ciudad que desees utilizando la API de OpenWeatherMap.
+Este proyecto es una aplicación web responsiva que muestra la información meteorológica actual de la ciudad que desees utilizando la API de OpenWeatherMap.
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-5-orange?style=flat&logo=html5">
