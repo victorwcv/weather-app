@@ -1,11 +1,6 @@
 # App de clima
 
 <p align="center">
-  <style>
-    img {
-      border-radius: 10px;
-    }
-  </style>
   <img src="./public/banner.jpg" alt="Descripción de la imagen">
 </p>
 
