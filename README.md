@@ -18,10 +18,6 @@ Este proyecto es una aplicación web simple que muestra la información meteorol
 
 Esta es una aplicación web que te permite buscar el clima actual de cualquier ciudad del mundo. Utiliza la API gratuita de OpenWeatherMap para obtener datos meteorológicos en tiempo real.
 
-## Demo
-
-Puedes probar una demostración de la aplicación [aquí](URL_de_tu_demo).
-
 ## Características
 
 - Búsqueda de ubicaciones por nombre de ciudad.
